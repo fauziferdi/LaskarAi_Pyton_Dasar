@@ -128,3 +128,57 @@ print("========")
 x = {1, 2, 7, 2, 3, 13, 3}
 print(x)
 print(type(x))
+print("========")
+
+# Dictionary
+# Dictionary pada Python merupakan kumpulan pasangan key-value yang bersifat tidak berurutan.
+
+x = { 'name': 'Perseus Evans', 'age': 20, 'isMarried': False }
+
+print(x ['name'])
+
+print(type(x))
+
+# Menambah Data pada Dictionary
+x ['Job'] = "Web Developer"
+print(x)
+
+# Menghapus Data pada Dictionary
+del x['isMarried']
+print(x)
+
+# Mengubah Data pada Dictionary
+x ['name'] = "Dicoding"
+print(x)
+
+print("========")
+
+
+# Konversi antara Tipe Data
+
+# Konversi Integer ke Float
+print(float(5))
+print("========")
+
+# Konversi Float ke Integer
+print(int(5.6))
+print(int(-5.6)) 
+print("========")
+
+# Konversi dari-dan-ke String
+print(int("25"))
+print(str(25))
+print(float("25"))
+print(str(25.6))
+print("========")
+
+# Konversi Kumpulan Data
+print(set([1,2,3]))
+print(tuple({5,6,7}))
+print(list('hello'))
+print("========")
+
+# Konversi ke Dictionary
+print(dict([[1,2],[3,4]]))
+print(dict([(3,26),(4,44)]))
+print("========")
